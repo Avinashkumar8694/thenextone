@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Product name:</strong>
+  <%= @home.product_name %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @home.category %>
+</p>
+
+<p>
+  <strong>Product link:</strong>
+  <%= @home.product_link %>
+</p>
+
+<p>
+  <strong>Discription:</strong>
+  <%= @home.discription %>
+</p>
+
+<p>
+  <strong>Sell price:</strong>
+  <%= @home.sell_price %>
+</p>
+
+<p>
+  <strong>Purchase price:</strong>
+  <%= @home.purchase_price %>
+</p>
+
+<p>
+  <strong>Discount:</strong>
+  <%= @home.discount %>
+</p>
+
+<p>
+  <strong>Product veido:</strong>
+  <%= @home.product_veido %>
+</p>
+
+<%= link_to 'Edit', edit_home_path(@home) %> |
+<%= link_to 'Back', homes_path %>
