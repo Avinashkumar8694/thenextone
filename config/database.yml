@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: TheNextOne_development
+  database: TheNextOne_production
   username: avinash
   password: 123456

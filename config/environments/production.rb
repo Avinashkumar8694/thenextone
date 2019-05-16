@@ -82,14 +82,14 @@ Rails.application.configure do
   # Use a different logger for distributed setups.
   # require 'syslog/logger'
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+  config.action_mailer.default_url_options = { host: 'https://thenextone.herokuapp.com'}
 
   config.action_mailer.perform_deliveries = true
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
       address:              'smtp.gmail.com',
-      port:                 443,
+      port:                 587,
       domain:               'gmail.com',
       #user_name:            '',
       #password:             '',
